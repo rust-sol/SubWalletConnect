@@ -13,7 +13,6 @@ import { recoverPersonalSignature, recoverTypedSignature, recoverTypedSignature_
 import React, { useCallback, useContext, useEffect, useState } from 'react';
 import Web3 from 'web3';
 import { AbstractProvider } from 'web3-core';
-
 import { WalletContext } from '../contexts';
 
 const { Option } = Select;
